@@ -11,9 +11,18 @@ img {
   max-width: 100%;
 }
 
+.chatbox-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+  justify-content: center;
+}
+
 .message-box {
   margin-bottom: 15px;
   background: #FBE5D8;
+  max-width: 75%;
 }
 
 .message-box-hope {
@@ -30,8 +39,10 @@ img {
   border: 2px solid #EE751B;
   padding: 5px 6px;
   box-shadow: -5px 5px 0px 2px #EE751B;
+  align-self: flex-end;
 }
 
 .message-box-stickers {
   max-width: 50%;
+  align-self: flex-end;
 }
