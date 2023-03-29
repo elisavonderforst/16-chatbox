@@ -1,7 +1,6 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
 }
 
 img {
@@ -9,3 +8,26 @@ img {
   max-width: 100%;
 }
 
+.message-box {
+  margin-bottom: 15px;
+}
+
+.message-box-hope {
+  border: 2px solid #3D70B6;
+  padding: 5px 6px;
+  box-shadow: 5px 5px #3D70B6;
+}
+
+.message-content {
+  margin: 0;
+}
+
+.message-box-greta {
+  border: 2px solid #EE751B;
+  padding: 5px 6px;
+  box-shadow: -5px 5px 0px 2px #EE751B;
+}
+
+.message-box-stickers {
+  max-width: 50%;
+}
