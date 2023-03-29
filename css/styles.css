@@ -1,6 +1,9 @@
 body {
   max-width: 320px;
   margin: auto;
+  background-image: url(../img/Background_image.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 img {
@@ -10,6 +13,7 @@ img {
 
 .message-box {
   margin-bottom: 15px;
+  background: #FBE5D8;
 }
 
 .message-box-hope {
