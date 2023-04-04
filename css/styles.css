@@ -1,9 +1,7 @@
 body {
   max-width: 320px;
-  margin: auto;
-  background-image: url(../img/Background_image.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 0;
+  font-family: 'Baloo 2', cursive;
 }
 
 img {
@@ -12,37 +10,104 @@ img {
 }
 
 .chatbox-container {
+  background-image: url(../img/fond_2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  border-left: 2px  solid #3D70B6;
+  border-right: 2px solid #EE751B;
   display: flex;
   flex-direction: column;
-  max-width: 300px;
-  margin: auto;
-  justify-content: center;
+  font-size: 13px;
 }
 
 .message-box {
   margin-bottom: 15px;
   background: #FBE5D8;
   max-width: 75%;
-}
-
-.message-box-hope {
-  border: 2px solid #3D70B6;
-  padding: 5px 6px;
-  box-shadow: 5px 5px #3D70B6;
+  margin-bottom: 30px;
 }
 
 .message-content {
   margin: 0;
+  padding: 10px;
+}
+
+.message-box-hope {
+  border: 2px solid #3D70B6;
+  box-shadow: 9px 9px #3D70B6;
+  margin-left: 20px;
 }
 
 .message-box-greta {
   border: 2px solid #EE751B;
-  padding: 5px 6px;
-  box-shadow: -5px 5px 0px 2px #EE751B;
+  box-shadow: -9px 9px 0px 2px #EE751B;
   align-self: flex-end;
+  margin-right: 20px;
 }
 
 .message-box-stickers {
   max-width: 50%;
   align-self: flex-end;
+}
+
+.message-time {
+  background: #FBE5D8;
+  padding: 5px;
+  margin-bottom: 40px;
+  box-shadow: 0px 12px 0px -5px #79BD73;
+  text-align: center;
+  font-weight: 700;
+}
+
+.gif {
+  max-width: 96%;
+  margin: 0;
+  padding: 5px 5px 30px 5px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.rue-maison {
+  max-width: 95%;
+  margin: 7px;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  bottom: 0;
+  background: #FBE5D8;
+  padding: 10px;
+  box-shadow: 0px -12px 0px -5px #79BD73;
+}
+
+input {
+  width: 55%;
+  margin: 10px;
+  margin-bottom: 10px;
+  border-left: 2px  solid #3D70B6;
+}
+
+button {
+  width: 30px;
+  border: none;
+  background: none;
+  align-self: center;
+}
+}
+
+.icone {
+  width: 20px;
+  align-self: center;
 }
