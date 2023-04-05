@@ -30,6 +30,7 @@ img {
   box-shadow: 0px 12px 0px -5px #79BD73;
   color: #3D70B6;
   margin-bottom: 40px;
+  z-index: 2;
 }
 
 h2 {
