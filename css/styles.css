@@ -10,7 +10,7 @@ img {
 }
 
 .chatbox-container {
-  background-image: url(../img/fond_2.png);
+  background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-position: center;
   margin: auto;
@@ -21,7 +21,7 @@ img {
   font-size: 13px;
 }
 
-.chatbox-container-header {
+.chatbox-header {
   display: flex;
   align-items: center;
   position: sticky;
@@ -50,7 +50,6 @@ h2 {
 
 .call {
   width: 25px;
-  align-self: center;
   margin: 10px;
 }
 
@@ -127,7 +126,6 @@ h2 {
 
 .gif {
   max-width: 96%;
-  margin: 0;
   padding: 5px 5px 30px 5px;
   border-radius: 10px;
 }
@@ -158,10 +156,9 @@ button {
   width: 30px;
   border: none;
   background: none;
-  align-self: center;
 }
 
-.icone {
+.icon {
   width: 20px;
   align-self: center;
 }
