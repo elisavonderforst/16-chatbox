@@ -1,6 +1,6 @@
 body {
   max-width: 320px;
-  margin: 0;
+  margin: auto;
   font-family: 'Baloo 2', cursive;
 }
 
@@ -21,11 +21,49 @@ img {
   font-size: 13px;
 }
 
+.chatbox-container-header {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: #FBE5D8;
+  box-shadow: 0px 12px 0px -5px #79BD73;
+  color: #3D70B6;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+.profil-greta {
+  width: 40px;
+  margin-left: 20px;
+}
+
+.profil-name {
+  line-height: 1px;
+  margin: 10px;
+  margin-right: 50px;
+}
+
+.call {
+  width: 25px;
+  align-self: center;
+  margin: 10px;
+}
+
+.burger {
+  width: 5px;
+  margin: 10px;
+}
+
 .message-box {
   margin-bottom: 15px;
   background: #FBE5D8;
   max-width: 75%;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .message-content {
@@ -39,11 +77,37 @@ img {
   margin-left: 20px;
 }
 
+.message-box-hope::before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: #EE751B;
+  border-radius: 50%;
+  border: 1px solid #FBE5D8;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
 .message-box-greta {
   border: 2px solid #EE751B;
   box-shadow: -9px 9px 0px 2px #EE751B;
   align-self: flex-end;
   margin-right: 20px;
+}
+
+.message-box-greta::before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: #3D70B6;
+  border-radius: 50%;
+  border: 1px solid #FBE5D8;
+  position: absolute;
+  top: -10px;
+  right: -10px;
 }
 
 .message-box-stickers {
@@ -67,10 +131,6 @@ img {
   border-radius: 10px;
 }
 
-h2 {
-  font-size: 14px;
-}
-
 .rue-maison {
   max-width: 95%;
   margin: 6px;
@@ -88,10 +148,9 @@ footer {
 }
 
 input {
-  width: 55%;
+  width: 58%;
   margin: 10px;
-  margin-bottom: 10px;
-  border-left: 2px  solid #3D70B6;
+  margin-right: 5px;
 }
 
 button {
@@ -99,40 +158,6 @@ button {
   border: none;
   background: none;
   align-self: center;
-}
-
-.chatbox-container-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  background: #FBE5D8;
-  box-shadow: 0px 12px 0px -5px #79BD73;
-  color: #3D70B6;
-  margin-bottom: 40px;
-}
-
-.profil-greta {
-  width: 40px;
-  margin-left: 20px;
-}
-
-.profil-name {
-  line-height: 1px;
-  margin: 10px;
-  margin-right: 50px;
-}
-
-.call {
-  width: 25px;
-  align-self: center;
-  margin: 10px;
-}
-
-.burger {
-  width: 5px;
-  margin: 10px;
 }
 
 .icone {
